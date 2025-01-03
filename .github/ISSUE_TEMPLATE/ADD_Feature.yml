@@ -1,5 +1,5 @@
 name: "Feature request ✨"
-description: "Suggest a new feature or enhancement"
+description: Suggest a new feature or enhancement
 title: "[FEATURE]: "
 labels: [enhancement, needs-triage]
 projects: ["hello"]
