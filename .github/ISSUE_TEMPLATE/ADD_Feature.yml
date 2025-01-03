@@ -18,11 +18,11 @@ body:
       label: "Task breakdown"
       placeholder: "List the tasks required to implement this feature"
       description: |
-        Provide a breakdown of the tasks required to implement this feature. For example:
-        - [ ] Task 1: Initial setup and configuration
-        - [ ] Task 2: Implement core functionality
-        - [ ] Task 3: Write unit tests
-        - [ ] Task 4: Update documentation
-        - [ ] Task 5: Code review and merge
+        Provide a breakdown of the tasks required to implement this feature. For example 
+        - [ ] Task 1 Initial setup and configuration
+        - [ ] Task 2 Implement core functionality
+        - [ ] Task 3 Write unit tests
+        - [ ] Task 4 Update documentation
+        - [ ] Task 5 Code review and merge
     validations:
       required: true
