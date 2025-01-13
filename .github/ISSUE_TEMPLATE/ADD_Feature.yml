@@ -1,6 +1,6 @@
 name: "Feature ✨"
 description: Add a new feature
-title: "[FEATURE]: "
+title: "[FEATURE] - [SOLUTION]: "
 labels: [needs-triage]
 projects: ["Th0msD/hello"]
 body:
