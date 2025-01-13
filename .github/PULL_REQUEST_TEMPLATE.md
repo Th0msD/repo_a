@@ -1,21 +1,36 @@
-## Description
-Please include a summary of the changes and the related issue. 
+name: "Pull Request"
+description: "Template for pull requests"
+title: "[PR]: "
+labels: [needs-triage]
+body:
+  - type: textarea
+    attributes:
+      label: "Description"
+      placeholder: "Describe the changes in this pull request"
+      description: |
+        Provide a detailed description of the changes in this pull request, including the purpose and any relevant context.
+    validations:
+      required: true
 
-## Type de changement
-- [ ] Bug fix
+  - type: textarea
+    attributes:
+      label: "Related Issues"
+      placeholder: "List any related issues"
+      description: |
+        List any related issues that this pull request addresses. For example:
+        - Fixes #123
+        - Closes #456
+    validations:
+      required: false
 
-## Related Issue
-Please link to the issue here: 
-
-## How Has This Been Tested?
-Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce.
-
-## Checklist
-- [ ] My code follows the style guidelines of this project
-- [ ] I have performed a self-review of my code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] Any dependent changes have been merged and published in downstream modules
+  - type: textarea
+    attributes:
+      label: "Checklist"
+      description: |
+        Provide a checklist of tasks completed in this pull request. For example:
+        - [ ] Task 1: Implemented feature A
+        - [ ] Task 2: Added tests for feature A
+        - [ ] Task 3: Updated documentation
+      placeholder: "List the tasks completed in this pull request"
+    validations:
+      required: true
