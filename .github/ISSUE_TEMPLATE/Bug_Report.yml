@@ -7,6 +7,12 @@ body:
 - type: markdown
   attributes:
     value: |
+      Please change used function by the function you used
+      Example: "[BUG]: Comptage"
+
+- type: markdown
+  attributes:
+    value: |
       Please make sure to [search for existing issues](https://github.com/repo_a/issues) before filing a new one!
 
 - type: dropdown
