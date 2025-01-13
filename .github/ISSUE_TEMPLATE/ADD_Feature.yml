@@ -1,7 +1,7 @@
 name: "Feature ✨"
 description: Add a new feature
-title: "[FEATURE] - [SOLUTION]: "
-labels: [needs-triage]
+title: "[SOLUTION]: "
+labels: [feature]
 projects: ["Th0msD/hello"]
 body:
   - type: textarea
